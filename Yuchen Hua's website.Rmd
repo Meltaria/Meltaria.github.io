@@ -13,7 +13,31 @@ library(plotly)
 ```
 
 ## This is the brief introduction of YUchen Hua
-My name is Yuchen Hua, currently a graduate student of Bostatistics in Columbia University Irving Medical Center. I used to be a undergraduate student in Brandeis University, Waltham. During my undergraduate period, I majored in Biochemistry. Some research and internship were done during this period. 
-My hobby is [ACG](https://en.wikipedia.org/wiki/ACG_(subculture)) and music. 
+My name is Yuchen Hua, currently a graduate student of Bostatistics in [Columbia University Irving Medical Center](https://www.cuimc.columbia.edu/). I used to be a undergraduate student in [Brandeis University](https://www.brandeis.edu/), Waltham. During my undergraduate period, I majored in Biochemistry. Some research and internship were done during this period. 
+
+My hobby is [ACG](https://en.wikipedia.org/wiki/ACG_(subculture)) and music. Japanese ancient and pop culture, such as game, [manga](https://en.wikipedia.org/wiki/Manga), [samurai](https://en.wikipedia.org/wiki/Samurai),  and pop music interest me a lot. 
+I played piano so I did have strong interest in [classical music](https://en.wikipedia.org/wiki/Classical_music), especially in [Mozart](https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart)'s music.
 
 ## Study experience
+In my undergraduate period, I majored in Biochemistry. Some basic courses, such as Math, Biology: Genome & Genetics, Physics and Chemistry. Some biochemistry required courses were also achieved, such as Classical and Statistical Thermodynamics. 
+My research and internship experience in this period was basicly about drug development and pharmacy. 
+Now I am a student of [Biostatistics](https://www.publichealth.columbia.edu/academics/departments/biostatistics) in CUMC, track [public health data science (PHDS)](https://www.publichealth.columbia.edu/academics/degrees/master-science/public-health-data-science). 
+
+You may take at a look at my [resume](resume.html)
+
+## Personal Interest
+I may say I am a great fan in Japanese culture, both their traditional culture, such as samurai, [kabuki](https://en.wikipedia.org/wiki/Kabuki) and [Katana](https://en.wikipedia.org/wiki/Katana), and their pop culture, such as their [Tokusatsu](https://en.wikipedia.org/wiki/Tokusatsu) (eg.Ultraman), and [anime](https://en.wikipedia.org/wiki/Anime). 
+
+The first time I played the game, [Sekiro](https://en.wikipedia.org/wiki/Sekiro:_Shadows_Die_Twice), I was strongly attracted by its art style and strong Japanese atmosphere. 
+<img src="image/sekiro.jpg" style="width:50%">
+
+
+
+
+
+
+
+
+
+
+

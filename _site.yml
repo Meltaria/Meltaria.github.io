@@ -3,6 +3,10 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
+    - text: "Current institution"
+      href: https://www.cuimc.columbia.edu/
+    - text: "Previous institution"
+      herf: https://www.brandeis.edu/
     - icon: fa-envelope fa-lg
       href: mailto:<yh3555@columbia.cumc.edu>
     - icon: fa-github fa-lg
