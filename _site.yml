@@ -5,8 +5,10 @@ navbar:
   right:
     - text: "Current institution"
       href: https://www.cuimc.columbia.edu/
+      
     - text: "Plotly"
       herf: plotly.html
+      
     - text: "dashborad"
       herf: dashboard.html
     - icon: fa-envelope fa-lg
