@@ -9,8 +9,9 @@ navbar:
     - text: "Plotly"
       herf: plotly.html
       
-    - text: "dashborad"
+    - text: "Dashborad"
       herf: dashboard.html
+      
     - icon: fa-envelope fa-lg
       href: mailto:<yh3555@columbia.cumc.edu>
     - icon: fa-github fa-lg
