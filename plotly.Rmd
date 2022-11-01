@@ -1,0 +1,11 @@
+---
+title: "Plotly"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Plots
+Here are some plots made based on dataset __[NY NOAA](https://p8105.com/dataset_noaa.html)__ 
+

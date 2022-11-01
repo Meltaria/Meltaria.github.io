@@ -5,10 +5,13 @@ navbar:
   right:
     - text: "Current institution"
       href: https://www.cuimc.columbia.edu/
-    - text: "Previous institution"
-      herf: https://www.brandeis.edu/
+      
+    - text: "Plots made in HW 4"
+      herf: plotly.html
+    
     - icon: fa-envelope fa-lg
       href: mailto:<yh3555@columbia.cumc.edu>
+    
     - icon: fa-github fa-lg
       href: http://github.com/Meltaria/
 output:
