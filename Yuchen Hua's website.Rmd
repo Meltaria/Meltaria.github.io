@@ -1,0 +1,19 @@
+---
+title: "Yuchen Hua's Website"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+## This is the brief introduction of YUchen Hua
+My name is Yuchen Hua, currently a graduate student of Bostatistics in Columbia University Irving Medical Center. I used to be a undergraduate student in Brandeis University, Waltham. During my undergraduate period, I majored in Biochemistry. Some research and internship were done during this period. 
+My hobby is [ACG](https://en.wikipedia.org/wiki/ACG_(subculture)) and music. 
+
+## Study experience

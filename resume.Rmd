@@ -1,0 +1,49 @@
+---
+title: "Resume"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Hello! Here are some academic and professional experience about Yuchen Hua.
+
+## Education
+
+#### Graduate
+
+__Columbia University__       New York, NY   09/2022-Present
+
+__Degree__: M.S. in Biostatistics
+
+__Course Highlights__: Probability; Data Science; Principle of Epidemiology; Biostatistics Method
+
+
+
+#### Undergraduate
+__Brandeis University__       Waltham, MA    08/2018-12/2021
+
+__Degree__: B.S. in Biochemistry            GPA: 3.59/4
+
+__Course Highlights__: Math I&II; Linear Algebra; Biostatistics; Classical and Statistical Thermodynamics, Genetics & Genomics, Physics I&II
+
+## Research Experience
+#### Computational Study of COVID-19 Antibodies and Structural Implications on Future Antibody Development
+
+__=> Shanghai Jiao Tong University, School of Pharmacy (Advisor : Prof. Buyong Ma)__        07-08/2021
+
+The structural analysis of the antibody complementarity-determining regions (CDRs) is critical for antibody discovery and development. In this project, I used computational methods and tools to disassemble the diverse COVID-19 antibodies and then conducted statistical analysis on the structural information of amino acid pairs on CDRs to identify the critical interactions and accordingly give implications on future COVID-19 antibody development.
+
+#### Review of Different Glucose-responsive Insulin Treatments for Type I Diabetes, the Corresponding Biomaterials, and Drug Delivery Methods
+
+__=>Cornell University, Collaborative Online Research (Advisor: Prof. Minglin Ma)__  08-09/2020
+
+With two team members, we conducted literature review to summarize the mechanisms and biomaterials used by four up-to-date glucose-responsive insulin treatments, compared the prons and cons between different drug delivery methods, and critically analyzed the challenges each faces.
+The review paper is published on Solid State Technology.
+
+## Internship
+
+#### Soochwo University Affiliated Dushu Lack Hospital
+__=>Summer Research Intern (Supervisor : Dr. Yafeng Zhou, Vasculocardiology Department)__  06-07/2019
+As a research assistant, I helped organize and clean the clinical data of >100 patients with acute myocardial infarction (AMI) to verify the efficacy of a new drug treatment. In another research, I used SPSS to perform univariate and multivariate analyses to identify the emotional risk factors – depression and anxiety in patients with acute coronary syndrome (ACS) diseases.
+
