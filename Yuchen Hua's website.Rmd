@@ -24,7 +24,7 @@ In my undergraduate period, I majored in Biochemistry. Some basic courses, such 
 
 My research and internship experience in this period was basicly about drug development and pharmacy. 
 Now I am a student of [Biostatistics](https://www.publichealth.columbia.edu/academics/departments/biostatistics) in CUMC, track [public health data science (PHDS)](https://www.publichealth.columbia.edu/academics/degrees/master-science/public-health-data-science). 
-<img src="image/cuimc.jpg" style="width:80%">
+<img src="image/cuimc.png" style="width:80%">
 
 You may take at a look at my [resume](resume.html)
 
