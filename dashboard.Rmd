@@ -1,0 +1,60 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+data("ny_noaa")
+
+noaa_2000 = 
+  ny_noaa %>%
+  separate(col = date, into = c("year", "month", "day")) %>%
+  mutate(prcp = prcp/10, tmax = as.numeric(tmax)/10, tmin= as.numeric(tmin)/10) %>%
+  filter(year == c("2000"), !is.na(tmax)) %>%
+  select(id, year, month, prcp, snow, snwd, tmax, tmin) %>%
+  group_by(id, year, month)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+
+
+### Chart A
+
+```{r}
+noaa_2000 %>%
+  summarize(tmax_ave = mean(tmax))%>%
+  plot_ly(x = ~month, y = ~tmax_ave, color = ~id, alpha = .5, type = "scatter")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+noaa_2000 %>%
+  plot_ly(
+    x = ~id, y = ~tmax, color = ~id, type= "box"
+  ) 
+```
+
+### Chart C
+
+```{r}
+noaa_2000 %>%
+  summarize(tmin_ave = mean(tmin))%>%
+  plot_ly(x = ~month, y = ~tmin_ave, color = ~id, alpha = .5, type = "bar")
+```
+

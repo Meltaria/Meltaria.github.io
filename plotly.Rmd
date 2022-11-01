@@ -13,6 +13,7 @@ library(plotly)
 # Plots
 Here are some plots made based on dataset __[NY NOAA](https://p8105.com/dataset_noaa.html)__
 
+## Import and clean up data
 ```{r}
 data("ny_noaa")
 
@@ -26,7 +27,7 @@ noaa_2000 =
 ```
 
 ## The average max temperature of each weather station. 
-The average max temperature in 2000 of each Weather station in 2000.
+The mean of maximum temperature of each weather station in 2000 was calculated.A scatter plot was via plot_ly(). The x-axis is labelled as Month while the y-axis was labelled as average maximum temperature. We can see the average maximum temperature of each weather station changes by month and are able to compared the condition of each station. 
 ```{r}
 noaa_2000 %>%
   summarize(tmax_ave = mean(tmax))%>%
@@ -34,6 +35,7 @@ noaa_2000 %>%
 ```
 
 ## The boxplot of each weather station's daily max temperature
+I plotted the boxplots of each weather stations' daily maximum temperature in 2000. They were distinguished by their ID. We may take a look at how the maximum temperature distribute over the year in different places. 
 ```{r}
 noaa_2000 %>%
   plot_ly(
@@ -42,6 +44,7 @@ noaa_2000 %>%
 ```
 
 ## The average minimum temperature of each weather station
+The bar graphs of each station's average minimum temperature in 2000 were plotted. The x-axis was month while the _axis was the average minimum temperature of each station. In this plot, we can find the change of the minimum temperature more directly. 
 ```{r}
 noaa_2000 %>%
   summarize(tmin_ave = mean(tmin))%>%
