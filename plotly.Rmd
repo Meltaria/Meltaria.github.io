@@ -5,7 +5,50 @@ output:
     toc: true
     toc_float: true
 ---
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+# Plots
+Here are some plots made based on dataset __[NY NOAA](https://p8105.com/dataset_noaa.html)__
 
-## Plots
-Here are some plots made based on dataset __[NY NOAA](https://p8105.com/dataset_noaa.html)__ 
+```{r}
+data("ny_noaa")
+
+noaa_2000 = 
+  ny_noaa %>%
+  separate(col = date, into = c("year", "month", "day")) %>%
+  mutate(prcp = prcp/10, tmax = as.numeric(tmax)/10, tmin= as.numeric(tmin)/10) %>%
+  filter(year == c("2000"), !is.na(tmax)) %>%
+  select(id, year, month, prcp, snow, snwd, tmax, tmin) %>%
+  group_by(id, year, month)
+```
+
+## The average max temperature of each weather station. 
+The average max temperature in 2000 of each Weather station in 2000.
+```{r}
+noaa_2000 %>%
+  summarize(tmax_ave = mean(tmax))%>%
+  plot_ly(x = ~month, y = ~tmax_ave, color = ~id, alpha = .5, type = "scatter")
+```
+
+## The boxplot of each weather station's daily max temperature
+```{r}
+noaa_2000 %>%
+  plot_ly(
+    x = ~id, y = ~tmax, color = ~id, type= "box"
+  ) 
+```
+
+## The average minimum temperature of each weather station
+```{r}
+noaa_2000 %>%
+  summarize(tmin_ave = mean(tmin))%>%
+  plot_ly(x = ~month, y = ~tmin_ave, color = ~id, alpha = .5, type = "bar")
+```
+
+
+
+
 
