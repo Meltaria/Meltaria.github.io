@@ -30,7 +30,7 @@ Column {data-width=650}
 
 
 
-### Chart A
+### Mean tmax of each month in 2000
 
 ```{r}
 noaa_2000 %>%
@@ -41,7 +41,7 @@ noaa_2000 %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Station's tmax distribution in 2000
 
 ```{r}
 noaa_2000 %>%
@@ -50,7 +50,7 @@ noaa_2000 %>%
   ) 
 ```
 
-### Chart C
+### Each station's tmin of each month in 2000
 
 ```{r}
 noaa_2000 %>%
