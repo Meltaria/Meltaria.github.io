@@ -1,19 +1,16 @@
-name: "Yuchen Hua's website"
+name: "Site"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Current institution"
-      href: https://www.cuimc.columbia.edu/
-      
+    - text: "About me"
+      href: resume.html
     - text: "Plotly"
-      herf: plotly.html
-      
-    - text: "Dashborad"
-      herf: dashboard.html
-      
+      href: plotly.html
+    - text: "Dashboard"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<yh3555@columbia.cumc.edu>
+      href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
       href: http://github.com/Meltaria/
 output:
