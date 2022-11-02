@@ -2,6 +2,7 @@ name: "Site"
 output_dir: "."
 navbar:
   title: "Home"
+  href: Yuchen-Hua-s-website.html
   right:
     - text: "About me"
       href: resume.html
